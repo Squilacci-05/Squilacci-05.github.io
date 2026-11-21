@@ -83,7 +83,8 @@ nav a:hover{text-decoration:underline}
 .badge{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14px;border:1.5px solid var(--line);padding:4px 10px;background:var(--bg)}
 .badge::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--yellow);box-shadow:0 0 0 1.5px var(--line)}
 .live h3.big{font-size:clamp(26px,3vw,34px);margin:14px 0 6px}
-.live .roleline{color:var(--mute);margin-bottom:16px}
+.live .roleline{color:var(--mute);margin-bottom:16px;line-height:1.7}
+.live .roleline strong{color:var(--ink)}
 .feat{list-style:none;padding:0;margin:18px 0 22px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 24px;font-size:15.5px}
 .feat li{padding-left:16px;position:relative}
 .feat li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;background:var(--ink)}
@@ -256,7 +257,7 @@ footer{font-size:14px;padding:18px max(5vw,16px);background:var(--ink);color:lig
       <div>
         <span class="badge"><span lang="fr">En ligne sur zirah.app</span><span lang="en">Live at zirah.app</span></span>
         <h3 class="big">Zirah</h3>
-        <div class="roleline"><span lang="fr">Co-fondateur · conception de la plateforme</span><span lang="en">Co-founder · platform design</span></div>
+        <div class="roleline"><span lang="fr">Co-fondateur</span><span lang="en">Co-founder</span><br><span lang="fr">Fondateur&nbsp;: <strong>Romualdo SEBANY</strong></span><span lang="en">Founder: <strong>Romualdo SEBANY</strong></span></div>
         <p lang="fr">Zirah a été créée pour répondre au défi de la découverte de la cuisine culturelle authentique et de la préservation des histoires qui l'accompagnent. Notre mission&nbsp;: créer des liens entre les gens grâce à la nourriture, et donner aux communautés les moyens de partager et de célébrer leur patrimoine culinaire.</p>
         <p lang="en">Zirah was created to make it easier to discover authentic cultural cuisine and to preserve the stories that come with it. Our mission is to connect people through food, and to give communities the means to share and celebrate their culinary heritage.</p>
         <ul class="feat" lang="fr">
